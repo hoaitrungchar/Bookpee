@@ -1,0 +1,226 @@
+  /* Style for the modal content */
+.complete-config-ctn {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+ .popup-complete-config {
+    position: relative !important;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    width: 35%;
+  }
+  
+  .popup-complete-config  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background: none;
+    border: none;
+  }
+  .popup-complete-config h2{
+    border-color: black;
+    border-bottom-style: groove;
+  }
+  .popup-complete-config  .span-complete-config{
+    display: inline-flex;
+    width: 90%;
+    justify-content: space-between;
+  }
+  .popup-complete-config  .span-complete-config .complete-noti-btn{
+    background-color: #4a9ff9;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  .popup-complete-config  .span-complete-config .complete-noti-btn:hover{
+    background-color: #3f98f8;
+  }
+  /* end style for the modal content */
+  /* end style for the form */
+
+  .form-control {
+    border: 1px solid #ccc;
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 0 20px;
+    border-radius: 20px;
+    background: none;
+  }
+  .crt-book-data-ctn h3{
+    text-transform: uppercase;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 32px;
+    color: #333;
+    letter-spacing: 2px;
+  }
+  .form-wrapper{
+    margin-bottom: 17px;
+  }
+  .form-wrapper label {
+    margin-bottom: 9px;
+    display: block;
+  }
+  
+  .crt-book-data-ctn{
+    width: 600px;
+    min-width: 500px;
+    background: none;
+    padding: 50px;
+    border-radius: 20px;
+    /* background-color: #f7f6f6; */
+
+
+  }
+  .all-crt-bdt-ctn{
+    display: flex;
+    flex-direction: row;
+  }
+  /* .all-crt-bdt-ctn .submit-book{
+    border: none;
+    width: 152px;
+    height: 40px;
+    margin: auto;
+    margin-top: 29px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    background: #ae3c33;
+    font-size: 13px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Muli-SemiBold";
+    border-radius: 20px;
+    overflow: hidden;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s; 
+  }
+  .all-crt-bdt-ctn .submit-book:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #f11a09;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out; 
+  }
+  .all-crt-bdt-ctn .submit-book:hover:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+    transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66); 
+  }
+  .all-crt-bdt-ctn .submit-book::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #f11a09;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  } */
+  .all-crt-bdt-ctn input, textarea, select, button {
+    font-family: "Muli-Regular";
+    color: #333; }
+  .nav-button {
+    margin-left: 5px;
+    margin-top: 10px; /* Adjust the margin as needed */
+    padding: 8px 16px;
+    background-color: #4a9ff9; /* Change to your desired background color */
+    color: #fff; /* Change to your desired text color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  .nav-button:disabled {
+    background-color: #ccc; /* Change to your desired disabled background color */
+    color: #666; /* Change to your desired disabled text color */
+    cursor: not-allowed;
+  }
+  .author-detail-ctn{
+    position: relative;
+  }
+  .author-detail-ctn .form-control {
+    width: calc(100% - 100px);
+
+  }
+  
+  .author-detail-ctn .delete-author-btn {
+    margin: 0;
+  }
+  /* Add these styles to your CSS */
+.genre-container {
+  margin-top: 10px;
+}
+.genre-container li{
+  margin:5px;
+}
+
+.genre-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-gap: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+.genre-list label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.genre-list input {
+  margin-right: 8px;
+}
+
+/* Optional: Style for selected genres */
+.selected-genres {
+  margin-top: 10px;
+  font-weight: bold;
+}
